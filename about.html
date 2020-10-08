@@ -18,6 +18,10 @@
 			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
 			crossorigin="anonymous"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
 		<link rel="stylesheet" href="css/style.css" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -79,7 +83,7 @@
 		<section class="first-section-about">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-lg-5">
+					<div class="col-lg-5 animate__animated animate__backInLeft">
 						<h1 class="header-tittle">SUSCRIBETE</h1>
 						<p class="header-description">
 							Puedes suscribirte con tu correo electronico y recibir informacion
@@ -109,7 +113,7 @@
 							</div>
 						</form>
 					</div>
-					<div class="col-lg-7">
+					<div class="col-lg-7 wow animate__animated animate__backInRight">
 						<img
 							class="img-app-vetpet-first"
 							src="img/acerca/Grupo 1 (1).png"
@@ -120,17 +124,19 @@
 			</div>
 		</section>
 		<section class="secound-section-about">
-			<h2 class="tittle-blue">Todo lo que necesitas sin salir de tu hogar</h2>
+			<h2 class="tittle-blue wow animate__animated animate__bounceIn">
+				Todo lo que necesitas sin salir de tu hogar
+			</h2>
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-lg-6 center">
+					<div class="col-lg-6 center animate__animated animate__backInLeft">
 						<img
 							class="img-app-vetpet-secound"
 							src="img/acerca/Group 242.png"
 							alt="vetpet app"
 						/>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 wow animate__animated animate__backInRight">
 						<h2 class="tittle-blue-left">
 							Asesoría veterinaria y dudas sencillas
 						</h2>
@@ -149,14 +155,14 @@
 		<section class="third-section-about">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-lg-6 center">
+					<div class="col-lg-6 center animate__animated animate__backInLeft">
 						<img
 							class="img-app-vetpet-secound"
 							src="img/acerca/Group243.png"
 							alt="vetpet app"
 						/>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 wow animate__animated animate__backInRight">
 						<h2 class="tittle-blue-left">
 							Disponible para tu <br />
 							dispositivo móvil
@@ -245,5 +251,9 @@
 			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 			crossorigin="anonymous"
 		></script>
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init()
+		</script>
 	</body>
 </html>
