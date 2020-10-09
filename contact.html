@@ -18,6 +18,10 @@
 			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
 			crossorigin="anonymous"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
 		<link rel="stylesheet" href="css/style.css" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -82,7 +86,11 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-12">
-						<h1 class="header-tittle center">CONTACTO</h1>
+						<h1
+							class="header-tittle center wow animate__animated animate__bounceIn"
+						>
+							CONTACTO
+						</h1>
 					</div>
 				</div>
 			</div>
@@ -91,7 +99,7 @@
 			<div class="container">
 				<form>
 					<div class="row align-items-end">
-						<div class="col-lg-4">
+						<div class="col-lg-4 animate__animated animate__backInLeft">
 							<img src="img/contacto/Group 231.png" alt="dog" />
 						</div>
 						<div class="col-lg-4">
@@ -128,8 +136,8 @@
 								></textarea>
 							</div>
 						</div>
-						<div class="col-lg-4">
-							<img src="img/contacto/Group 234.png" alt="dog" />
+						<div class="col-lg-4 wow animate__animated animate__backInRight">
+							<img src="img/contacto/Group 234.png" alt="cat" />
 						</div>
 					</div>
 					<button type="button" class="btn btn-outline-primary Vetpet-btn-blue">
@@ -210,5 +218,8 @@
 			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 			crossorigin="anonymous"
 		></script>
+		<script>
+			new WOW().init()
+		</script>
 	</body>
 </html>
