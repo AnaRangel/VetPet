@@ -21,6 +21,10 @@
 			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
 			crossorigin="anonymous"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
 		<link rel="stylesheet" href="css/style.css" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -84,7 +88,7 @@
 		<section class="first-section-service">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-lg-6">
+					<div class="col-lg-6 animate__animated animate__backInLeft">
 						<h1 class="header-tittle">
 							ENCUENTRA A <br />
 							TU VETERINARIO
@@ -97,7 +101,7 @@
 							Ver más
 						</button>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 wow animate__animated animate__backInRight">
 						<img
 							class="img-app-vetpet-first-service"
 							src="img/servicios/Group 245.png"
@@ -108,8 +112,12 @@
 			</div>
 		</section>
 		<section class="secound-section">
-			<h2 class="tittle-blue">Consulta nuestras tarifas</h2>
-			<p class="text-blue-service center">
+			<h2 class="tittle-blue wow animate__animated animate__bounceIn">
+				Consulta nuestras tarifas
+			</h2>
+			<p
+				class="text-blue-service center wow animate__animated animate__bounceIn"
+			>
 				Este servicio te permite contactar con un médico veterinario en
 				cualquier momento del día desde la comodidad de tu casa, donde por medio
 				de una videollamada se dará solución a diferentes problemas de salud o
@@ -117,7 +125,7 @@
 			</p>
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-lg-4 center">
+					<div class="col-lg-4 center wow animate__animated animate__fadeIn">
 						<div class="card card-price" style="width: 440px">
 							<div class="card-body">
 								<h5 class="card-title card-title-price center">600 CLP</h5>
@@ -174,7 +182,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 center">
+					<div class="col-lg-4 center wow animate__animated animate__fadeIn">
 						<div class="card card-price" style="width: 440px">
 							<div class="card-body">
 								<h5 class="card-title card-title-price center">800 CLP</h5>
@@ -231,7 +239,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 center">
+					<div class="col-lg-4 center wow animate__animated animate__fadeIn">
 						<div class="card card-price" style="width: 440px">
 							<div class="card-body">
 								<h5 class="card-title card-title-price center">800 CLP</h5>
@@ -292,9 +300,13 @@
 			</div>
 		</section>
 		<section class="secound-third-service">
-			<h2 class="tittle-blue-service">Una APP diseñada para tu mascota</h2>
+			<h2 class="tittle-blue-service wow animate__animated animate__bounceIn">
+				Una APP diseñada para tu mascota
+			</h2>
 			<div class="container">
-				<div class="row align-items-center">
+				<div
+					class="row align-items-center wow animate__animated animate__fadeIn"
+				>
 					<div class="col-lg-3 center">
 						<img src="img/servicios/Group 249.png" alt="veterinario" />
 						<p class="secound-section-subtittle">Asesoría veterinaria</p>
@@ -387,5 +399,9 @@
 			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 			crossorigin="anonymous"
 		></script>
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init()
+		</script>
 	</body>
 </html>
