@@ -413,6 +413,11 @@ footer li a {
 .section-form {
 	padding-bottom: 50px;
 	padding-top: 50px;
+	width: 100%;
+}
+
+.Vetpet-form-container {
+	width: 100%;
 }
 
 .form-input {
@@ -423,6 +428,11 @@ footer li a {
 
 .textarea-contact {
 	padding-top: 15px;
+}
+
+.Vetpet-img-contact-one,
+.Vetpet-img-contact-two {
+	display: none;
 }
 
 /**RESPONSIVE**/
@@ -484,5 +494,49 @@ footer li a {
 	}
 	ul {
 		padding: 0px;
+	}
+	.img-app-vetpet-first {
+		margin-top: 50px;
+	}
+	.first-section-about {
+		text-align: center;
+	}
+	.third-section-about {
+		margin-bottom: 0px;
+	}
+	.first-section-service {
+		text-align: center;
+	}
+	.img-app-vetpet-first-service {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.card-price {
+		width: 100% !important;
+		margin-bottom: 20px;
+		padding: 25px;
+	}
+	.tittle-blue-service {
+		font-size: 35px;
+		padding-bottom: 0px;
+	}
+	.accordion > .card > .card-header {
+		padding: 10px;
+	}
+	.Vetpet-img-contact-one {
+		position: absolute;
+		right: 0;
+		width: 115px;
+		bottom: 0;
+		display: block;
+	}
+	.Vetpet-img-contact-two {
+		position: absolute;
+		left: 0;
+		width: 115px;
+		display: block;
+	}
+	.diplay-web {
+		display: none;
 	}
 }
